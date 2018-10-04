@@ -1,0 +1,45 @@
+/*body{*/
+    /*background: yellow;*/
+/*}*/
+.contentBox{
+    height: 40px;
+}
+.blocGeneralFirst,.blocGeneralSecond{
+    flex-wrap: wrap;
+    flex:auto;
+}
+
+.boxInformation{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex:2;
+}
+.informationBoxContent{
+    display: flex;
+    flex-direction: row;
+    flex:2;
+}
+.boxInformation{
+    margin: 0 5px 4px 4px;
+}
+.infoContent{
+    flex: 2;
+    margin-top: 0;
+}
+.boxDataCode{
+    margin-left: 2px;
+}
+.boxName{
+    min-width: 224px;
+}
+
+.blocDescriptionBoxFirst,.blocDescriptionBoxSecond{
+    flex-direction: column;
+}
+.containerStatusVideo{
+    flex-direction: column;
+}
+.boxGeneral{
+    margin:3px 5px 0 0;
+}

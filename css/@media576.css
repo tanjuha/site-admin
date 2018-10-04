@@ -1,0 +1,129 @@
+/*body{*/
+    /*background: #8ff0bc;*/
+/*}*/
+/*header*/
+.navBarTop > div{
+    margin: 0 0 0 10px;
+}
+.logoIcon{
+    margin: 0 10px 0 0;
+}
+ .menuBar, .formSearch, .logoIcon > span{
+    display: none;
+}
+.menuAllWidth{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width:100vw;
+    z-index:100;
+    overflow-y:  hidden;
+
+}
+/*header end*/
+.content{
+     margin: 10px;
+ }
+/*first bloc*/
+.boxLike{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.boxImage{
+    margin: 0 6px -1px 1px;
+}
+.boxImage > img{
+    width: 100%;
+    height:auto;
+    min-width: 245px;
+    margin-right: -1px;
+}
+/*first bloc end*/
+/*bloc icons*/
+.boxDescription{
+    width: auto;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 1px;
+}
+/*bloc icons end*/
+/*bloc general*/
+.boxDataCode{
+    justify-content: center;
+}
+.blocGeneralFirst{
+    justify-content: center;
+}
+.boxGeneral{
+    margin: 3px 5px 0 4px;
+}
+/*bloc general end*/
+
+.blocFlexFirst{
+    flex-direction: column;
+}
+.containerDetails{
+    min-width: 0;
+}
+/*box general information*/
+.boxInformation{
+    margin: 0 4px 4px 4px;
+}
+/*box general information end*/
+/*bloc second*/
+.dateBox{
+    height:40px;
+    margin: 2px 2px 6px 4px;
+}
+.boxDetailsMenu{
+    width: 100%;
+    flex:2;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 5px 0 0 0;
+}
+.blocGeneralSecond{
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 3px 0 3px;
+}
+/*bloc second end*/
+/*containers forms*/
+.boxLabelSizeDistance{
+    width:81%;
+}
+.containerStatusVideo{
+    min-width: 0;
+}
+.boxVideo{
+    margin:2px 0 0 0;
+}
+.boxVideo> div{
+    flex-direction: column;
+}
+.boxVideo > div > h3{
+    margin-left:0;
+}
+.boxStatus{
+    margin-right: 0;
+}
+.boxVideo > div:nth-child(7) > label{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxDataCode{
+    display: flex;
+    flex-direction: row;
+}
+.flexBlocFirst{
+    flex-direction: column;
+}
+/*containers forms end*/
+.containerDetails{
+    flex-wrap: nowrap;
+}
